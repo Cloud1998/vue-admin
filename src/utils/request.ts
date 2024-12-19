@@ -1,7 +1,7 @@
 // request.ts
 // 进行 axios 二次封装，使用请求与响应拦截器
 import axios from 'axios'
-import { ElMessage } from 'element-plus/lib'
+import { ElMessage } from 'element-plus'
 
 // 1. 利用 axios 对象的 create 方法，创建 axios 实例，进行配置。
 const request = axios.create({

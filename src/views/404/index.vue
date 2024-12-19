@@ -1,13 +1,12 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+    <div>404</div>
 </template>
 
 <script setup lang='ts'>
-  
+    import {ref, reactive} from 'vue'
+    
 </script>
 
 <style lang='less' scoped>
-  
+    
 </style>
